@@ -31,7 +31,7 @@ export class CreateUsersTable1616589501240 implements MigrationInterface {
 
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable('users')
-        await queryRunner.query('DROP EXTENSION "uuid-ossp"')
+        await queryRunner.query('DROP EXTENSION "uuid-ossp')
     }
 
 }
